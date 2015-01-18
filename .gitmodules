@@ -1,0 +1,4 @@
+[submodule "naijav"]
+	path = naijav
+	url = https://github.com/forfuture-dev/naijav
+	branch = site
