@@ -1,2 +1,5 @@
 # our build directory
 build/
+
+# bin directory for external executables
+bin/
