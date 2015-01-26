@@ -9,8 +9,12 @@ build: naijav/_site lib
 	cp -r -p lib/* build/
 
 
-naijav/_site: naijav/
+naijav/_site: naijav
 	cd naijav && jekyll build
+
+
+naijav:
+	cd naijav/ && git pull
 
 
 bin: bin/webserver.jar
@@ -32,4 +36,4 @@ clean:
 	rm -r build bin
 
 
-.PHONY: clean
+.PHONY: naijav clean

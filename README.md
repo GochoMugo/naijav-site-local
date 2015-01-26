@@ -8,6 +8,7 @@ Builds package to run the Naijav's site locally.
 
 **Requires: (*nix users)**
 
+* `git`
 * `jekyll`
 * `mvn`
 * `wget`
